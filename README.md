@@ -1,5 +1,18 @@
-# SemVer
-# Hello SemVer
+## Версионирование (SemVer)
 
-## Запуск
-python hello_world.py --name Dima --times 3
+Проект использует Semantic Versioning: `MAJOR.MINOR.PATCH` (например, `v1.2.0`).
+
+Правила повышения версии:
+- **MAJOR** — несовместимые изменения (breaking changes).
+- **MINOR** — новая функциональность без поломки обратной совместимости.
+- **PATCH** — исправления багов без добавления новой функциональности.
+
+Все релизы помечаются git-тегами вида `vX.Y.Z` и публикуются в разделе Releases:
+https://github.com/Diminikhui/SemVer/releases
+
+## Список релизов
+
+- **v1.2.0** — Added: параметр `--times` для повторения приветствия. Docs: обновлены примеры запуска.
+- **v1.1.1** — Fixed: обработка пустого/пробельного значения `--name`.
+- **v1.1.0** — Added: аргумент `--name`.
+- **v1.0.0** — Added: Hello World app. Docs: README с инструкцией запуска.
